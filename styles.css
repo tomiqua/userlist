@@ -1,0 +1,52 @@
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+ nav {
+    display: flex;
+    background-color: #333a35;
+    justify-content: flex-start;
+    color: white;
+ 
+ 
+    }
+ nav p {
+  margin: 5px;
+ 
+ 
+ 
+ }
+ 
+ .logo {
+    height: 50px;
+    width: 50px;
+    background-image: url("logo.png");
+ 
+ }
+ 
+ a:hover {
+    color:orange;
+ }
+ a:link, a:visited {
+    color: white;
+    text-decoration: none;
+ 
+ }
+ nav a {
+ display: block;
+ float: none;
+ padding: 10px;
+ margin right:10px;
+ margin top: -20px;
+ }
+ 
+ .fab, .fas{
+    color: orange;
+ }
+ 
+ .fab:hover, .fas:hover {
+    color: white;
+ }
